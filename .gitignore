@@ -10,9 +10,10 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Model files (optional - ignore if they're large)
+# Model files (ignore all except the deployed model)
 *.h5
 *.keras
+!model.h5
 
 # Environment variables
 .env
